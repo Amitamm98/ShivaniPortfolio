@@ -1,0 +1,285 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1b1212;
+  --color-secondary: #f20003;
+  --color-background: #1b1212;
+}
+@keyframes dot-move1 {
+  0% {
+    top: -6px;
+    left: 6px;
+  }
+  25% {
+    top: -6px;
+    left: 97%;
+  }
+  50% {
+    top: 97%;
+    left: 97%;
+  }
+  75% {
+    top: 97%;
+    left: -6px;
+  }
+  100% {
+    top: -6px;
+    left: -6px;
+  }
+}
+@keyframes dot-move2 {
+  0% {
+    top: -6px;
+    left: 6px;
+  }
+  25% {
+    top: -6px;
+    left: 97%;
+  }
+  50% {
+    top: 97%;
+    left: 97%;
+  }
+  75% {
+    top: 97%;
+    left: -6px;
+  }
+  100% {
+    top: -6px;
+    left: -6px;
+  }
+}
+@keyframes dot-move3 {
+  0% {
+    top: -6px;
+    left: 6px;
+  }
+  25% {
+    top: -6px;
+    left: 97%;
+  }
+  50% {
+    top: 97%;
+    left: 97%;
+  }
+  75% {
+    top: 97%;
+    left: -6px;
+  }
+  100% {
+    top: -6px;
+    left: -6px;
+  }
+}
+@keyframes dot-move4 {
+  0% {
+    top: -6px;
+    left: 6px;
+  }
+  25% {
+    top: -6px;
+    left: 97%;
+  }
+  50% {
+    top: 97%;
+    left: 97%;
+  }
+  75% {
+    top: 97%;
+    left: -6px;
+  }
+  100% {
+    top: -6px;
+    left: -6px;
+  }
+}
+@keyframes dot-move5 {
+  0% {
+    top: -6px;
+    left: 6px;
+  }
+  25% {
+    top: -6px;
+    left: 97%;
+  }
+  50% {
+    top: 97%;
+    left: 97%;
+  }
+  75% {
+    top: 97%;
+    left: -6px;
+  }
+  100% {
+    top: -6px;
+    left: -6px;
+  }
+}
+@keyframes dot-move6 {
+  0% {
+    top: -6px;
+    left: 6px;
+  }
+  25% {
+    top: -6px;
+    left: 97%;
+  }
+  50% {
+    top: 97%;
+    left: 97%;
+  }
+  75% {
+    top: 97%;
+    left: -6px;
+  }
+  100% {
+    top: -6px;
+    left: -6px;
+  }
+}
+@keyframes spindiv {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes navspin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.divdot-move1 {
+  animation: linear 20s dot-move2 infinite;
+}
+.divdot-move2 {
+  animation: linear 20s dot-move2 infinite;
+}
+.divdot-move3 {
+  animation: linear 20s dot-move3 infinite;
+}
+.divdot-move4 {
+  animation: linear 20s dot-move4 infinite;
+}
+.divdot-move5 {
+  animation: linear 20s dot-move5 infinite;
+}
+.divdot-move6 {
+  animation: linear 20s dot-move6 infinite;
+}
+.spindiv {
+  animation: linear 20s spindiv infinite;
+}
+.navspin {
+  animation: linear 5s spin infinite;
+}
+@keyframes horizontal {
+  0% {
+    transform: translateX(180px);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(600px);
+  }
+  100% {
+    transform: translateX(180px);
+  }
+}
+@keyframes vertical {
+  0% {
+    transform: translateY(180px);
+  }
+  55% {
+    transform: translateY(-500px);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(180px);
+  }
+}
+
+@keyframes small1 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-5vw) translateY(0);
+  }
+  50% {
+    transform: translateX(-5vw) translateY(3vh);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes small2 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(2vh) translateY(0);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes small3 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(0) translateY(-8vh);
+  }
+  50% {
+    transform: translateX(-5vw) translateY(-12vh);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes small4 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-12vh) translateY(-12vh);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+.horizontal-move {
+  animation: linear 20s horizontal infinite;
+}
+
+.vertical-move {
+  animation: linear 20s vertical infinite;
+}
+
+.smallcircle1 {
+  animation: linear 15s small1 infinite;
+}
+.smallcircle2 {
+  animation: linear 15s small2 infinite;
+}
+.smallcircle3 {
+  animation: linear 15s small3 infinite;
+}
+.smallcircle4 {
+  animation: linear 15s small4 infinite;
+}
