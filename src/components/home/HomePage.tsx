@@ -1,7 +1,5 @@
-import React from 'react'
 import HomePageHero from './HomePageHero'
 import HomeAboutMe from './HomeAboutMe'
-import HomePageCard from './HomePageCard'
 import ExpertiseSection from './ExpertiseSection'
 import EducationSection from './EducationSection'
 import ServicesSection from './ServicesSection'
@@ -18,7 +16,6 @@ const HomePage = () => {
     <HomeAboutMe/>
     <CreativeWorkSection/>
     <ServicesSection/>
-    <HomePageCard/>
     <ExpertiseSection/>
     <SketchesAndPaintings/>
     <EducationSection/>

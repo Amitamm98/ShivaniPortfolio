@@ -1,4 +1,3 @@
-import React from 'react'
 import ServicesHeroPage from './ServicesHeroPage'
 
 const ServiceHero = () => {

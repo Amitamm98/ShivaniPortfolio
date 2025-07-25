@@ -1,7 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay, Pagination } from "swiper/modules";
+//@ts-ignore
 import "swiper/css";
+//@ts-ignore
 import "swiper/css/effect-coverflow";
+//@ts-ignore
 import "swiper/css/pagination";
 import { motion } from "framer-motion";
 

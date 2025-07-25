@@ -29,18 +29,6 @@ const services = [
   },
 ];
 
-const cardVariants = {
-  hidden: { opacity: 0, y: 50 },
-  visible: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: i * 0.2,
-      duration: 0.6,
-      type: "spring",
-    },
-  }),
-};
 
 const ServicesSection = () => {
   return (
@@ -58,7 +46,6 @@ const ServicesSection = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            variants={cardVariants}
             className="bg-primary p-6 rounded-2xl border border-secondary hover:shadow-lg hover:shadow-green-400/20 hover:scale-[1.03] transition-all duration-300"
           >
             <div className="mb-4 flex items-center justify-center text-secondary">

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { easeOut } from "framer-motion";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -8,7 +9,7 @@ const fadeInUp = {
     transition: {
       delay: i * 0.15,
       duration: 0.6,
-      ease: "easeOut",
+      ease: easeOut,
     },
   }),
 };
@@ -30,6 +31,7 @@ const ContactSection = () => {
         {/* Educator Info */}
         <motion.div
           variants={fadeInUp}
+          custom={1}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}

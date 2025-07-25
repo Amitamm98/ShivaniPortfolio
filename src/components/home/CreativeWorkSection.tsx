@@ -1,8 +1,10 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
+//@ts-ignore
 import "swiper/css";
+//@ts-ignore
 import "swiper/css/effect-coverflow";
+//@ts-ignore
 import "swiper/css/pagination";
 
 import img1 from "../../assets/images/school1.jpeg";
